@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+div.inner {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#header {
+    height: 100px;
+    background-image: url(../images/秋2.jpg);
+}
+
+div#header div.inner {
+    height: 100px;
+    padding-top: 20px;
+}
+
+.welcome {
+    padding: 0 0 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div#nav {
+    height: 50px;
+    background: -webkit-linear-gradient(
+        top,white,lightblue
+    );
+}
+
+div#footer {
+    height: 100px;
+    background-image: url(../images/秋2.jpg);
+}
+
+div#container {
+    height: 930px;
+    background-image: url(../images/冬1.jpg);
+    background-size: auto 930px;
+}
+
+div#container div.inner {
+    width: 1100px;
+}
+
+div#container div.inner div#cont_1_1 {
+    width: 500px;
+    height: 828px;
+    background: -webkit-linear-gradient(
+        top,white,lightblue,white
+    );
+    float: left;
+    margin-top: 60px;
+}
+
+div#container div.inner div#cont_1_2 {
+    width: 500px;
+    height: 828px;
+    background: -webkit-linear-gradient(
+        top,white,lightblue,lightblue,white
+    );
+    float: left;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.img1 {
+    width: 350px;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+#right-2 {
+    width: 450px;
+    height: 250px;
+    margin-left: 30px;
+}
+
+

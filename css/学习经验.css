@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-image: url(../images/学习背景.jpg);
+    background-size: 1560px 900px;
+}
+
+div.inner {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#header {
+    height: 50px;
+}
+
+div#nav {
+    height: 40px;
+    background: -webkit-linear-gradient(
+        top,white,lightblue,white
+    );
+}
+
+div#container {
+    height: 730px;
+}
+
+.frame {
+    border-collapse: separate;
+    border-spacing: 1px;
+    margin: 0px auto 0px auto;
+    height: 730px;
+}
+
+#left-share {
+    width: 500px;
+    height: 650px;
+    float: left;
+}
+
+.share-table {
+    border-bottom: 1px solid #1ed8df;
+    width: 480px;
+    margin-top: 30px;
+}
+
+.learning-experience {
+    text-align: center;
+}
+
+.group {
+    width: 450px;
+    height: 500px;
+    float: left;
+}
+
+time {
+    height: 450px;
+}
+
+.biaoti {
+    font-family: 隶书;
+    font-size: 20px;
+}
+
+#right-hudong {
+    width: 450px;
+    height: 700px;
+    float: left;
+    margin-left: 30px;
+}
+
+.study-img {
+    width: 450px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.interflow {
+    width: 450px;
+    height: 140px;
+    text-align: center;
+    float: left;
+}
+
+.liuyan-text {
+    width: 450px;
+    height: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+

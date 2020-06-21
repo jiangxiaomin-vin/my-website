@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习经验</title>
+    <link rel="stylesheet" type="text/css" href="./css/学习经验.css">
+</head>
+
+<body>
+    <!-- 页眉区header -->
+    <div id="header">
+        <!-- 每个区都有一个公共类inner，用来放置内容，内容区宽度固定，居中 -->
+        <div class="inner"></div>
+    </div>
+    <!-- 导航区nav -->
+    <div id="nav">
+        <div class="inner">
+            <div id="theme">
+                <font face="隶书" size="6" color="black">学 习 经 验</font>
+            </div>
+        </div>
+    </div>
+    <!-- 内容区container -->
+    <div id="container">
+        <div class="inner">
+            <!-- 边框 -->
+            <div class="frame">
+                <!-- 第一部分左边的经验分享 -->
+                <div id="left-share">
+                    <!-- 主题 -->
+                    <table class="share-table" height="10%">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="learning-experience">
+                                        <p>
+                                            <font face="方正舒体" size="5" color="black"><b>大 家 好 !</b></font>
+                                        </p>
+                                        <p>
+                                            <font face="方正舒体" size="5" color="black"><b>这 里 分 享 一 些 学 习 经 验 ！</b>
+                                            </font>
+                                        </p>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- 经验分享 -->
+                    <table class="group" height="90%">
+                        <tbody>
+                            <tr>
+                                <td class="time">
+                                    <ul class="time-list">
+                                        <li id="time-item-1">
+                                            <p class="biaoti 1">我的小学——官亭小学</p>
+                                            <p style="text-indent: 2em;">
+                                                需要从小培养一手工整的好字，这对各方面都有很重要的作用；锻炼数学运算能力，培养自己的动脑能力；养成今日事今日毕的好习惯。
+                                            </p>
+                                        </li>
+                                        <li id="time-item-2">
+                                            <p class="biaoti 2">我的初中——官亭中学</p>
+                                            <p style="text-indent: 2em;">
+                                                积极拓展自己的朋友圈，积极完成各项作业，认真负责，养成不懂就问的好习惯。
+                                            </p>
+                                        </li>
+                                        <li id="time-item-3">
+                                            <p class="biaoti 3">我的高中——临澧一中</p>
+                                            <p style="text-indent: 2em;">
+                                                学会调整压力，找到适合自己的学习方法，正确看待考试成绩。当然，家长的态度也十分重要。
+                                            </p>
+                                        </li>
+                                        <li id="time-item-4">
+                                            <p class="biaoti 3">我的大学——中南财经政法大学</p>
+                                            <p style="text-indent: 2em;">
+                                                给自己定好阶段性目标，高效的利用有限的时间。课前一定要预习各个老师上课的内容，不然很容易跟不上进度。
+                                                课外也要多参加活动和各种比赛，锻炼自己各方面的能力。
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                    </table>
+                    <!-- 名言 -->
+                    <font face="Gabriola" size="5" color="black"><b>
+                        <p style="text-indent: 2em;">Sharp edge of a sword comes out from grinding, and plum blossom's fragrance comes from the bitter cold .</p></b>
+                    </font>              
+                    <font face="方正舒体" size="5" color="black"><b>
+                        <p style="text-indent: 2em;">——宝剑锋从磨砺出，梅花香自苦寒来。</p></b><br>
+                    </font>
+                </div>
+                <!-- 第二部分右边的留言框 -->
+                <div id="right-hudong">
+                    <!-- 配图 -->
+                    <div id="img">
+                        <img src="images/书1.jpg" class="study-img">
+                    </div>
+                    <!-- 主题 -->
+                    <div>
+                        <p class="liuyan-text">大家有什么好的学习经验，欢迎留言！(也可以留下个人信息哦)</p>
+                    </div>
+                    <!-- 留言 -->
+                    <div class="button">
+                        <form method="method_page.php">
+                            <fieldset><br>
+                                姓 名 :
+                                <input type="text" name="姓 名">
+                                <br><br>
+                                Q Q :
+                                <input type="text" name="Q Q">
+                                <div class="interflow">
+                                    <div class="liuyan">
+                                        <p class="study">
+                                            <textarea class="textarea empty" name="liuyan" id="study-liuyan" alt="留言"
+                                                rows="6" cols="45"
+                                                onkeyup="checkconditions(this.value, this.name, this.type)">
+                                            </textarea>
+                                        </p>
+                                    </div>
+                                </div>
+                                <br><br>
+                                <input type="submit" value="Submit">
+                                <br>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

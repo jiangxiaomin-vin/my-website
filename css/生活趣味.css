@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background-image: url(../images/2.jpg);
+}
+
+div.inner {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#header {
+    height: 150px;
+}
+
+div#header div.inner {
+    height: 150px;
+    padding-bottom: 25px;
+}
+
+#theme {
+    float: right;
+    margin-left: 50px;
+}
+
+.img {
+    width: 150px;
+    height: 80px;
+    margin-left: 50px;
+}
+
+#life {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+div#nav {
+    height: 40px;
+}
+
+div#nav div.inner{  
+    width: 200px;
+    height: 40px;
+}
+
+div#container_1 {
+    height: 500;
+}
+
+div#container_1 div.inner div#ana {
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 32px;
+}
+
+.tp1 {
+    width: 350px;
+    height: 445px;
+    margin-top: 70px;
+    margin-left: 55px;
+}
+
+#tp1-meaning {
+    width: 150px;
+    height: 20px;
+    margin-left: 720px;
+    margin-top: 10px;
+    font-family: serif;
+    font-size: small;
+    font-style: initial;
+    color: lightslategray;
+}
+
+/* 语录 */
+.biaoti1 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+div#container_2 {
+    height: 970px;
+}
+
+div#container_2 div.inner div#cont_2_1 {
+    width: 450px;
+    height: 500px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.biaoti2-1 {
+    text-decoration: underline;
+}
+
+.tp2 {
+    width: 200px;
+    height: 100px;
+}
+
+.verselet-1 {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div#container_2 div.inner div#cont_2_2 {
+    width: 450px;
+    height: 500px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.verselet-2 {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#container_2 div.inner div#cont_2_3 {
+    width: 1000px;
+    height: 350px;
+    float: left;
+    margin-top: 45px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.tp3 {
+    width: 1000px;
+    height: 300px;
+}
